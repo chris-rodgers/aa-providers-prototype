@@ -32,7 +32,8 @@ export default function AutoCheckIn() {
           Take it easy and let us check you in to your flight
         </p>
         <p className="mb-4 text-sm italic">
-          *Please note there is a 50% chance this product will error
+          *Please note there is a 50% chance this product will error when adding
+          or removing
         </p>
         <Button
           onClick={toggleCartState}
