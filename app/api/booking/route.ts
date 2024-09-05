@@ -98,9 +98,3 @@ function getPriceBreakdown(flight: Flight, cart: Cart): PriceBreakdown {
 
   return result;
 }
-
-export const config = {
-  api: {
-    externalResolver: true,
-  },
-};
