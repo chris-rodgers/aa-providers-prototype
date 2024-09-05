@@ -38,7 +38,7 @@ export default function ProductsProvider({ children }: PropsWithChildren) {
   // This function is called when there was an error adding the product to the basket
   function onError() {
     // Error handling here
-    alert("Error adding the product");
+    alert("Sorry, there was an error with your request. Please try again");
   }
 
   const value = { autoCheckIn, cancellationProtection };
