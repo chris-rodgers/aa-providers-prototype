@@ -32,8 +32,8 @@ export default function CancellationProtection() {
           cancellation protection has your back!
         </p>
         <p className="mb-4 text-sm italic">
-          *Just a quick heads up – we have added this item to your cart
-          automatically.
+          <sup>*</sup>Just a quick heads up – we have added this item to your
+          cart automatically.
         </p>
         <Button
           onClick={toggleCartState}

@@ -29,11 +29,11 @@ export default function AutoCheckIn() {
       <>
         <p className="mb-2">Price: ${price}</p>
         <p className="mb-4 text-sm">
-          Take it easy and let us check you in to your flight
+          Take it easy and let us check you in to your flight.
         </p>
         <p className="mb-4 text-sm italic">
-          *Please note there is a 50% chance this product will error when adding
-          or removing
+          <sup>*</sup>Please note there is a 50% chance this product will error
+          when adding or removing.
         </p>
         <Button
           onClick={toggleCartState}
