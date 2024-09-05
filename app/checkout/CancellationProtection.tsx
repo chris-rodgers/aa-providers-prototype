@@ -28,8 +28,8 @@ export default function CancellationProtection() {
       <>
         <p className="mb-2">Price: ${price}</p>
         <p className="mb-4 text-sm italic">
-          Flights can be unpredictable, but your refund isn't - cancellation
-          protection has your back!
+          Flights can be unpredictable, but your refund isn&rsquo;t -
+          cancellation protection has your back!
         </p>
         <Button
           onClick={toggleCartState}
