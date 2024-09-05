@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "airline": "Air 95",
+        "departure": "New York (JFK)",
+        "arrival": "London (LHR)",
+        "time": "10:00 AM - 10:00 PM",
+        "duration": "10h",
+        "price": 450
+    },
+    {
+        "id": 2,
+        "airline": "Retro Airways",
+        "departure": "San Francisco (SFO)",
+        "arrival": "Tokyo (NRT)",
+        "time": "08:00 AM - 12:00 AM",
+        "duration": "14h",
+        "price": 650
+    },
+    {
+        "id": 3,
+        "airline": "Classic Skies",
+        "departure": "Chicago (ORD)",
+        "arrival": "Paris (CDG)",
+        "time": "12:00 PM - 02:00 AM",
+        "duration": "8h",
+        "price": 550
+    }
+]
