@@ -55,7 +55,7 @@ export async function GET(req: NextRequest) {
     const flight = flights[booking.itinerary as keyof typeof flights] as Flight;
     const priceBreakdown = getPriceBreakdown(flight, session._cart);
 
-    return NextResponse.json({ flight, booking, priceBreakdown });
+    return NextResponse.json({ flight, priceBreakdown });
   } else {
     return NextResponse.json(
       { message: "No booking found in the session" },
